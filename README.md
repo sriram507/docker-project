@@ -1,20 +1,70 @@
 # docker-project
-Containerized Application Deployment using Docker
-Project Overview
-Containerized Node.js application using Docker.
+# Containerized Application Deployment using Docker
 
-Technologies
-Node.js
-Express.js
-Docker
-Docker Compose
+## Overview
 
-Commands
+This project demonstrates application containerization using Docker. A Node.js application was packaged into a Docker image and deployed inside containers to ensure consistent execution across different environments.
+
+## Objectives
+
+* Understand containerization concepts.
+* Build Docker images.
+* Run and manage containers.
+* Configure multi-container deployments using Docker Compose.
+
+## Technologies Used
+
+* Docker
+* Docker Compose
+* Node.js
+* Express.js
+
+## Features
+
+* Docker image creation
+* Container lifecycle management
+* Multi-container deployment
+* Environment-independent execution
+* Simplified application deployment
+
+## Project Structure
+
+Dockerfile
+docker-compose.yml
+server.js
+package.json
+
+## Build Docker Image
+
 docker build -t docker-project .
+
+## Run Container
 
 docker run -p 3000:3000 docker-project
 
+## Run Using Docker Compose
+
 docker compose up
+
+## Learning Outcomes
+
+* Docker fundamentals
+* Image creation and management
+* Container networking
+* Docker Compose configuration
+* Application deployment automation
+
+## Future Improvements
+
+* Multi-stage builds
+* Docker Hub integration
+* Container monitoring
+* Kubernetes deployment
+
+## Author
+
+Injarapu Sriram
+
 
 Screenshots
 Docker Desktop
